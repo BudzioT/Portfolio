@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartosz Budnik's portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bartosz Budnik (Budzio Tudzio)</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home" style="color: lightblue;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="color: lightblue;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" style="color: lightblue;">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio" style="color: lightblue;">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: lightblue;">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer" style="color: lightblue;">Socials</a>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+    </nav>
+
+    <!-- Hero image section -->
+    <section class="bgImage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, Bartosz's here</h2>
+                    <p class="hero_desc">I am a student who loves to learn programming</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me section -->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-8">
+                    
+                </div>
+
+                <div class="row- mt-3">
+                    <p class="text-center">I would like to make games, software, systems or even game engines.<br> 
+                        I focus on learning C++ and libraries,  to use it with and QML. I also know a little of GLSL.<br>
+                        I can compile programs using CMake, I'm also learning to use Linux-GNU and Python.<br>
+                        Thanks to the school, I know some PHP, HTML, CSS, JS, C# and SQL</p>
+
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><b>Name:</b> Bartosz Budnik</li>
+                                <li><b>Age:</b> 16</li>
+                                <li><b>Occupation:</b> Student</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><b>Field of study:</b> Programming</li>
+                                <li><b>Location:</b> Poland, Brzoza bydgoska</li>
+                                <li><b>School:</b> Zespół Szkół Mechanicznych nr 1 im. Franciszka Siemiradzkiego</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row mt-6 text-center">
+                        <p>I started programming in the sixth grade of primary school. I did some basic exercises with C++ back then.<br>
+                            Later on I completed some courses and I applied to technical secondary school with programming in mind.<br>
+                            There I learnt a little about making websites, writing some basic algorithms and creating applications.<br>
+                            In the meantime I started to read books about general and object oriented programming and about C++.<br>
+                            I also started making projects using libraries that I'm learning like SDL2, OpenGL and developing
+                            applications using Qt. <br>
+                            In my freetime I also try to use Linux and make mini-projects in Python using 
+                            many libraries, modules. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
+            <div class="row">
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-gamepad"></i>
+                            <h4 class="card-title mt-3">Game Development</h4>
+                            <p class="card-text mt-3">I can create some basic games like Snake, Pong, Asteroids 
+                                using C++ and libraries like SDL2, Raylib.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-sort"></i>
+                            <h4 class="card-title mt-3">Algorithm implementation</h4>
+                            <p class="card-text mt-3">I know several algorithms, which includes sorting, 
+                                finding elements and more. I can implement them in some programming languages.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-desktop"></i>
+                            <h4 class="card-title mt-3">Software development</h4>
+                            <p class="card-text mt-3">I'm able to use QtQuick with C++, QML and JavaScript,  
+                                to create software for all kind of devices with both logic and design with animations.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-cube"></i>
+                            <h4 class="card-title mt-3">Graphic programming</h4>
+                            <p class="card-text mt-3"> I can write code to render basic shapes with lighting in OpenGL.
+                                That includes writing shaders in GLSL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-database"></i>
+                            <h4 class="card-title mt-3">Creating databases</h4>
+                            <p class="card-text mt-3"> I'm able to create necessary databases to use with software.
+                                I can also mantain them, write some basic SQL queries.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-wrench"></i>
+                            <h4 class="card-title mt-3">Developing in Unreal Engine</h4>
+                            <p class="card-text mt-3">I know some things about Unreal Engine, I'm able to
+                                do basic tasks there, I understand the UI of this Engine.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/snake.png" alt="Card image" style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Snake game</h4>
+                            <p class="card-text">Known to everyone snake game! Made with C++ and SDL2, compiled with CMake</p>
+                            <div class="text-center">
+                                <a href="https://github.com/BudzioT/Snake_game" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/string.png" alt="Card image" style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Custom String class</h4>
+                            <p class="card-text">This is my implementation of the String class. I've included most of the original 
+                                functions, so that it can be used almost like STL one</p>
+                            <div class="text-center">
+                                <a href="https://github.com/BudzioT/Custom_String" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/map-light.png" alt="Card image" style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Map lighting</h4>
+                            <p class="card-text">Rendered box, with semi-realistic lighting. The lighting affects metal frames more 
+                                than the wood. You can freely fly around.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/BudzioT/Map_lighting" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/planets.png" alt="Card image" style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Planet informations</h4>
+                            <p class="card-text">An application made in QtQuick, to look at some short descriptions of planets</p>
+                            <div class="text-center">
+                                <a href="https://github.com/BudzioT/Planet_informations" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="mt-3 contactContent">
+            <h1 class="text-center">Contact me</h1>
+
+            <div class="row mt-4">
+                
+
+                <div class="col-lg-6" style="margin-left: 30%;">
+                    <!-- Form fields -->
+                    <form action="https://formspree.io/f/mleqndqb" method="post">
+                        <input type="text" class="form-control form-control-lg" placeholder="Name" name="name">
+                        <input type="email" class="form-control mt-3" placeholder="E-mail" name="email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject" name="subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="message" 
+                            placeholder="Project details"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success mt-3">Contact Me</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- Social media icons -->
+            <h3 style="color: lightblue;">Socials:</h3>
+            <div class="social-icons mt-4">
+                <a href="https://github.com/BudzioT" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/bartosz-budnik-19b4b9292/" target="_blank">
+                    <i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/budziot/" target="_blank">
+                    <i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/Budzio5" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load the script after all HTML content is loaded -->
+    <script src="script/script.js"></script>
+</body>
+</html>
